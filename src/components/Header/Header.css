@@ -1,0 +1,38 @@
+.header-cont {
+  height: 70px;
+  background-color: rgba(75, 75, 75, .75);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3%;
+}
+
+.header-cont input {
+  width: 30%;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding: 0 1%;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.login {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login:visited,
+.logo:visited {
+  color: rgb(50, 50, 50);
+}
+
+
+.button-cont {
+  width: 10%;
+  display: flex;
+  justify-content:space-between;
+}
