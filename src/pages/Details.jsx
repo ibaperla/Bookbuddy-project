@@ -6,9 +6,9 @@ import axios from "axios";
 export default function Details({item, token, cart, setCart}) {
     const { id } = useParams();
     const [product, setProduct] = useState(null);
-
+    console.log(product)
     useEffect(()=> {
-      axios('https://fakestoreapi.com/products/${id}')
+      axios(`https://fakestoreapi.com/products/${id}`)
         .then((res) => {
           setProduct(res.data);
         })
